@@ -3,7 +3,7 @@ class Song
   
 
   
-  def artist_name=(artist)
-    self.artist = Artist
+  def self.artist
+    @artist = artist
   end
 end
